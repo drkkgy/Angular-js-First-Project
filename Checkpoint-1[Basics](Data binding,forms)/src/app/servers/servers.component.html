@@ -13,9 +13,6 @@ class="form-control"
 <!--<p>{{serverName}}</p>-->
 <p>{{ allowNewServer}}</p>
 <p [innerText] = "allowNewServer" ></p>
-<!--<p>{{ allowNewServerStatus }}</p>-->
-<p *ngIf = "ServerCreated">The server created is {{serverName}}</p>
-<!--<p *ngIf = "ServerCreated; else noserver ">The server created is {{serverName}}</p>
-<ng-template #noserver> No Server is created yet</ng-template>-->
+<p>{{ allowNewServerStatus }}</p>
 <app-server></app-server>
 <app-server></app-server>
